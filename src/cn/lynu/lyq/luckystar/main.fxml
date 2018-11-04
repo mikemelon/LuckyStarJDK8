@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cn.lynu.lyq.luckystar.Controller">
+   <children>
+      <Button fx:id="startButton" layoutX="191.0" layoutY="294.0" mnemonicParsing="false" onAction="#onStartBtnClick" text="开始">
+         <font>
+            <Font name="Microsoft YaHei Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="pauseButton" layoutX="369.0" layoutY="294.0" mnemonicParsing="false" onAction="#onPauseBtnClick" text="暂停">
+         <font>
+            <Font name="Microsoft YaHei Bold" size="20.0" />
+         </font>
+      </Button>
+      <Label fx:id="nameLabel" layoutX="172.0" layoutY="136.0" text="你的名字">
+         <font>
+            <Font name="Microsoft YaHei Bold" size="64.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

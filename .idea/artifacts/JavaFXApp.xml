@@ -1,0 +1,25 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="JavaFXApp">
+    <output-path>$PROJECT_DIR$/out/artifacts/JavaFXApp</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="appClass" value="cn.lynu.lyq.luckystar.Main" />
+        <option name="description" value="author: lyq&#13;&#10;Used in teaching lessons." />
+        <option name="htmlParamFile" value="" />
+        <option name="nativeBundle" value="all" />
+        <option name="paramFile" value="" />
+        <option name="title" value="LuckyStar" />
+        <option name="vendor" value="lyq@lynu" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="JavaFXApp.jar">
+        <element id="module-output" name="LuckyStar" />
+        <element id="directory" name="libs">
+          <element id="library" level="project" name="org.apache.poi:poi-ooxml:3.16" />
+          <element id="library" level="project" name="org.apache.poi:poi:3.16" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
